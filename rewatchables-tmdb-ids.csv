@@ -1,0 +1,288 @@
+movie_title,release_year,tmdb_id
+"The Last Days of Disco",1998,16980
+"Trading Places",1983,1621
+"Chef",2014,212778
+"Iron Man",2008,1726
+"Sudden Death",1995,9091
+"Alien",1979,348
+"Indecent Proposal",1993,4478
+"He Got Game",1998,9469
+"Cape Fear",1991,1598
+"Adventureland",2009,16614
+"Bad Boys",1983,13633
+"Catch Me If You Can",2002,640
+"Whiplash",2014,244786
+"Sleepless in Seattle",1993,858
+"The Vanishing",1993,1644
+"Deliverance",1972,10669
+"Big",1988,2280
+"Alive",1993,7305
+"Sideways",2004,9675
+"Cliffhanger",1993,9350
+"Mission: Impossible - Fallout",2018,353081
+"I Am Legend",2007,6479
+"The Verdict",1982,24226
+"Man on Fire",2004,9509
+"Body Heat",1981,14412
+"Blow Out",1981,11644
+"Cruising",1980,27958
+"American Gigolo",1980,2768
+"The Edge",1997,9433
+"Pineapple Express",2008,10189
+"Glengarry Glen Ross",1992,9504
+"Pitch Perfect",2012,114150
+"Boogie Nights",1997,4995
+"Margin Call",2011,50839
+"Singles",1992,11068
+"Saving Private Ryan",1998,857
+"Scent of a Woman",1992,9475
+"Grease",1978,621
+"School Ties",1992,14684
+"Can't Buy Me Love",1987,12919
+"Unforgiven",1992,33
+"There Will Be Blood",2007,7345
+"Above the Rim",1994,19092
+"Top Gun: Maverick",2022,361743
+"Misery",1990,1700
+"Project X",2012,57214
+"The Untouchables",1987,117
+"Hard to Kill",1990,9569
+"Knocked Up",2007,4964
+"Cop Land",1997,2142
+"Rocky III",1982,1371
+"E.T. the Extra-Terrestrial",1982,601
+"Beverly Hills Cop II",1987,96
+"Austin Powers: International Man of Mystery",1997,816
+"A League of Their Own",1992,11287
+"Spider-Man",2002,557
+"The Player",1992,10403
+"Die Hard 2",1990,1573
+"Panic Room",2002,4547
+"Shooter",2007,7485
+"Titanic",1997,597
+"Batman",1989,268
+"The Ice Storm",1997,68924
+"Kramer vs. Kramer",1979,12102
+"Parenthood",1989,1552
+"Rachel Getting Married",2008,14976
+"Ordinary People",1980,16619
+"Casino",1995,524
+"Miracle",2004,14292
+"Juice",1992,16136
+"Limitless",2011,51876
+"Father of the Bride",1991,11846
+"The Last Boy Scout",1991,9319
+"Saturday Night Fever",1977,11009
+"JFK",1991,820
+"Hoosiers",1986,5693
+"Focus",2015,256591
+"Ransom",1996,3595
+"Halloween",1978,948
+"The Color of Money",1986,11873
+"Cobra",1986,9874
+"Trainspotting",1996,627
+"Dirty Work",1998,14577
+"Warrior",2011,59440
+"Hardball",2001,20857
+"Rain Man",1988,380
+"Argo",2012,68734
+"Superbad",2007,8363
+"Escape to Victory",1981,17360
+"The Bodyguard",1992,619
+"Fight Club",1999,550
+"Legally Blonde",2001,8835
+"Independence Day",1996,602
+"Boyz n the Hood",1991,650
+"Stripes",1981,10890
+"City Slickers",1991,1406
+"Raiders of the Lost Ark",1981,85
+"Memento",2000,77
+"The Rock",1996,9802
+"Lethal Weapon 2",1989,942
+"What About Bob?",1991,10276
+"Predator",1987,106
+"Mrs. Doubtfire",1993,788
+"Manhunter",1986,11454
+"Lethal Weapon",1987,941
+"Thief",1981,11524
+"Commando",1985,10999
+"Insidious",2010,49018
+"Inside Man",2006,388
+"New Jack City",1991,10952
+"The Doors",1991,10537
+"Neighbors",2014,195589
+"Coming to America",1988,9602
+"Taxi Driver",1976,103
+"Out of Sight",1998,1389
+"Terminator 2: Judgment Day",1991,280
+"The Terminator",1984,218
+"First Blood",1982,1368
+"The Royal Tenenbaums",2001,9428
+"Bridesmaids",2011,55721
+"Mr. Holland's Opus",1995,2054
+"The Bourne Identity",2002,2501
+"Country Strong",2010,45272
+"The Program",1993,18133
+"Wall Street",1987,10673
+"8MM",1999,8224
+"Home Alone",1990,771
+"Toy Story",1995,862
+"The American President",1995,9087
+"The Exorcist",1973,9552
+"Rocky IV",1985,1374
+"Spotlight",2015,314365
+"The Martian",2015,286217
+"Kicking and Screaming",1995,28387
+"The Game",1997,2649
+"Se7en",1995,807
+"Easy A",2010,37735
+"Unfaithful",2002,2251
+"The Usual Suspects",1995,629
+"Dangerous Minds",1995,9909
+"Cocktail",1988,7520
+"Pump Up the Volume",1990,8428
+"Caddyshack",1980,11977
+"Bad Boys",1995,9737
+"The Last of the Mohicans",1992,9361
+"Teen Wolf",1985,11824
+"The Sandlot",1993,11528
+"Ghost",1990,251
+"The Conjuring",2013,138843
+"25th Hour",2002,1429
+"Stand By Me",1986,235
+"Swingers",1996,10218
+"St. Elmo's Fire",1985,11557
+"The Perfect Storm",2000,2133
+"Fletch",1985,9749
+"Boomerang",1992,11066
+"Armageddon",1998,95
+"Back to the Future",1985,105
+"Draft Day",2014,200505
+"Crimson Tide",1995,8963
+"Groundhog Day",1993,137
+"Gladiator",2000,98
+"While You Were Sleeping",1995,2064
+"Ronin",1998,8195
+"Ferris Bueller's Day Off",1986,9377
+"Basic Instinct",1992,402
+"Enemy of the State",1998,9798
+"Total Recall",1990,861
+"Tommy Boy",1995,11381
+"Furious 7",2015,168259
+"The Karate Kid",1984,1885
+"Edge of Tomorrow",2014,137113
+"Cast Away",2000,8358
+"The Godfather Part III",1990,242
+"Contagion",2011,39538
+"Vision Quest",1985,30069
+"Higher Learning",1995,16295
+"The Breakfast Club",1985,2108
+"King of New York",1990,9558
+"Unstoppable",2010,44048
+"Dunkirk",2017,374720
+"The Talented Mr. Ripley",1999,1213
+"The Godfather Part II",1974,240
+"Happy Gilmore",1996,9614
+"The Wolf of Wall Street",2013,106646
+"Skyfall",2012,37724
+"The Holiday",2006,1581
+"The Shining",1980,694
+"Den of Thieves",2018,449443
+"Mr. Mom",1983,13105
+"The Shawshank Redemption",1994,278
+"Beverly Hills Cop",1984,90
+"Fatal Attraction",1987,10998
+"Gone Girl",2014,210577
+"Bloodsport",1988,11690
+"Collateral",2004,1538
+"The Town",2010,23168
+"Reservoir Dogs",1992,500
+"Top Gun",1986,744
+"Inglourious Basterds",2009,16869
+"No Country for Old Men",2007,6977
+"The Notebook",2004,11036
+"Dead Poets Society",1989,207
+"The Hangover",2009,18785
+"John Wick: Chapter 2",2017,324552
+"Mean Girls",2004,10625
+"Field of Dreams",1989,2323
+"Major League",1989,9942
+"Fast Five",2011,51497
+"Pretty Woman",1990,114
+"The Natural",1984,11393
+"Broadcast News",1987,12626
+"Forgetting Sarah Marshall",2008,9870
+"Reality Bites",1994,2788
+"Dave",1993,11566
+"A Star Is Born",2018,332562
+"The Warriors",1979,11474
+"Proof of Life",2000,11983
+"The Fast and the Furious",2001,9799
+"Old School",2003,11635
+"The Godfather",1972,238
+"Tombstone",1993,11969
+"Con Air",1997,1701
+"The Firm",1993,37233
+"All the President's Men",1976,891
+"Dazed and Confused",1993,9571
+"True Romance",1993,319
+"Rounders",1998,10220
+"Taken",2008,8681
+"Mad Max: Fury Road",2015,76341
+"Wedding Crashers",2005,9522
+"My Best Friend's Wedding",1997,8874
+"Die Hard",1988,562
+"Mission: Impossible",1996,954
+"Midnight Run",1988,9013
+"Step Brothers",2008,12133
+"Jaws",1975,578
+"The Devil Wears Prada",2006,350
+"Forrest Gump",1994,13
+"Jurassic Park",1993,329
+"Ocean's Eleven",2001,161
+"Training Day",2001,2034
+"The Social Network",2010,37799
+"The Princess Bride",1987,2493
+"Michael Clayton",2007,4566
+"Inception",2010,27205
+"Creed",2015,312221
+"The Big Lebowski",1998,115
+"Get Out",2017,419430
+"Miami Vice",2006,82
+"Varsity Blues",1999,14709
+"Good Will Hunting",1997,489
+"10 Things I Hate About You",1999,4951
+"Zodiac",2007,1949
+"Friday",1995,10634
+"The Dark Knight",2008,155
+"The Fugitive",1993,5503
+"Face/Off",1997,754
+"Scream",1996,4232
+"Clueless",1995,9603
+"Speed",1994,1637
+"The Silence of the Lambs",1991,274
+"You've Got Mail",1998,9489
+"Point Break",1991,1089
+"The Departed",2006,1422
+"A Few Good Men",1992,881
+"Jerry Maguire",1996,9390
+"Heat",1995,949
+"Any Given Sunday",1999,9563
+"Moneyball",2011,60308
+"White Men Can't Jump",1992,10158
+"Blue Chips",1994,19819
+"The Purge",2013,158015
+"Ocean's Twelve",2004,163
+"Remember The Titans",2000,10637
+"Do The Right Thing",1989,925
+"Butch Cassidy And The Sundance Kid",1969,642
+"Escape From New York",1981,1103
+"Say Anything...",1989,2028
+"48 Hrs.",1982,150
+"Tango & Cash",1989,9618
+"The 40-Year-Old Virgin",2005,6957
+"Once Upon a Time... in Hollywood",2019,466272
+"Sleeping With The Enemy",1991,7442
+"When Harry Met Sally...",1989,639
+"Love & Basketball",2000,14736
+"Goodfellas",1990,769
