@@ -8,6 +8,9 @@
 #
 
 rewatchablesFile="rewatchables-tmdb-ids.csv"
+availableOnNetFlixFile="available/available-on-netflix.txt"
+echo "Rewatchables Films Available On Netflix in the U.S." | tee ${availableOnNetFlixFile}
+echo "=======================================" | tee -a ${availableOnNetFlixFile}
 
 split -l 50 ${rewatchablesFile} 
 for i in xaa xab xac xad xae xaf

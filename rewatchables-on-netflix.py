@@ -21,7 +21,7 @@ args = parser.parse_args()
 
 # CSV file with TMDB IDs passed via the command line
 tmdb_id_csv_file = args.file
-
+available_on_netflix_file = open("available/available-on-netflix.txt", 'a')
 with open(tmdb_id_csv_file, 'r') as csv_file:
     next(csv_file)
     reader = csv.reader(csv_file)
@@ -46,5 +46,7 @@ with open(tmdb_id_csv_file, 'r') as csv_file:
             for provider in us_providers:
                 # Final check for Netflix availability
                 if provider['provider_name'] == "Netflix":
-                    print(
-                        f"'{row[0]}' is available on Netflix in the US market")
+                    print(f"'{row[0]}'")
+                    available_on_netflix_file.write(f'{row[0]}\n')
+
+available_on_netflix_file.close()
