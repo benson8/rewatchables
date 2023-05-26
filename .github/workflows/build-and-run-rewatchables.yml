@@ -4,6 +4,7 @@ on:
   # Trigger every Tuesday at 10:10 AM
   schedule:
     - cron: "10 10 * * 2"
+  workflow_dispatch:
 
 jobs:
 
