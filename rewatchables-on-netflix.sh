@@ -15,9 +15,16 @@ then
    exit 1
 fi
 
+if [ -z "${GITHUB_TOKEN}" ]
+then
+   echo "GITHUB_TOKEN is not set, exiting...."
+   exit 1
+fi
+
 rewatchablesFile="rewatchables-tmdb-ids.csv"
 availableOnNetFlixFile="available/available-on-netflix.txt"
-echo "Rewatchables Films Available On Netflix in the U.S." | tee ${availableOnNetFlixFile}
+lastRun=`date`
+echo "Rewatchables Films Available On Netflix in the U.S. (as of ${lastRun})" | tee ${availableOnNetFlixFile}
 echo "=======================================" | tee -a ${availableOnNetFlixFile}
 
 split -l 50 ${rewatchablesFile} 
@@ -26,3 +33,12 @@ do
    ./rewatchables-on-netflix.py $i
 done
 rm -f xa*
+
+dir="available"
+
+# update the file
+curl -i -X PUT -H "Authorization: token ${GITHUB_TOKEN}" -d "{\"path\": \"available-on-netflix.txt\", \
+\"message\": \"latest run on ${lastRun}\", \"content\": \"$(openssl base64 -A -in $dir/available-on-netflix.txt)\", \"branch\": \"main\",\
+\"sha\": $(curl -X GET https://api.github.com/repos/benson8/rewatchables/contents/available/available-on-netflix.txt | jq .sha)}" \
+https://api.github.com/repos/benson8/rewatchables/contents/available/available-on-netflix.txt
+
