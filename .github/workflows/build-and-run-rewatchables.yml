@@ -17,8 +17,9 @@ jobs:
     - name: Build the Docker image
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-      run: docker build . --file Dockerfile --tag rewatchables:$(date +%s)
+      #run: docker build . --file Dockerfile --tag rewatchables:$(date +%s)
+      run: docker build . --file Dockerfile --tag rewatchables:0.0.1
     - name: Run the Docker image
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-      run: docker images
+      run: docker run rewatchables:0.0.1
