@@ -1,0 +1,23 @@
+name: Rewatchables on Netflix
+
+on:
+  # Trigger every Tuesday at 10:10 AM
+  schedule:
+    - cron: "10 10 * * 2"
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      run: docker build . --file Dockerfile --tag rewatchables:$(date +%s)
+    - name: Run the Docker image
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      run: docker run rewatchables:$(date +%s)
