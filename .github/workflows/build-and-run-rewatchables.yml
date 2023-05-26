@@ -21,4 +21,4 @@ jobs:
     - name: Run the Docker image
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-      run: docker run rewatchables:$(date +%s)
+      run: docker run rewatchables:latest
