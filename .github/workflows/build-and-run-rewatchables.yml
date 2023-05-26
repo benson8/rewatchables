@@ -11,16 +11,13 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    environment: TMDB
 
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      env:
-        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       #run: docker build . --file Dockerfile --tag rewatchables:$(date +%s)
       run: docker build . --file Dockerfile --tag rewatchables:0.0.1
     - name: Run the Docker image
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-      run: docker run rewatchables:0.0.1
+      run: docker run -e TMDB_API_KEY rewatchables:0.0.1
