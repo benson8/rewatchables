@@ -7,6 +7,14 @@
 # issue.
 #
 
+env
+
+if [ -z "${TMDB_API_KEY}" ]
+then
+   echo "TMDB_API_KEY environment variable is not set, exiting...."
+   exit 1
+fi
+
 rewatchablesFile="rewatchables-tmdb-ids.csv"
 availableOnNetFlixFile="available/available-on-netflix.txt"
 echo "Rewatchables Films Available On Netflix in the U.S." | tee ${availableOnNetFlixFile}
