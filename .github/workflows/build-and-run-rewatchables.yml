@@ -6,6 +6,9 @@ on:
     - cron: "10 10 * * 2"
   workflow_dispatch:
 
+env: 
+  TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+
 jobs:
 
   build:
@@ -23,4 +26,4 @@ jobs:
     - name: Run the Docker image
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-      run: docker run rewatchables:0.0.1
+      run: docker run -e TMDB_API_KEY rewatchables:0.0.1
