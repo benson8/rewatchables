@@ -15,9 +15,9 @@ then
    exit 1
 fi
 
-if [ -z "${GITHUB_TOKEN}" ]
+if [ -z "${GH_TOKEN}" ]
 then
-   echo "GITHUB_TOKEN is not set, exiting...."
+   echo "GH_TOKEN is not set, exiting...."
    exit 1
 fi
 
@@ -37,7 +37,7 @@ rm -f xa*
 dir="available"
 
 # update the file
-curl -i -X PUT -H "Authorization: token ${GITHUB_TOKEN}" -d "{\"path\": \"available-on-netflix.txt\", \
+curl -i -X PUT -H "Authorization: token ${GH_TOKEN}" -d "{\"path\": \"available-on-netflix.txt\", \
 \"message\": \"latest run on ${lastRun}\", \"content\": \"$(openssl base64 -A -in $dir/available-on-netflix.txt)\", \"branch\": \"main\",\
 \"sha\": $(curl -X GET https://api.github.com/repos/benson8/rewatchables/contents/available/available-on-netflix.txt | jq .sha)}" \
 https://api.github.com/repos/benson8/rewatchables/contents/available/available-on-netflix.txt
