@@ -9,15 +9,19 @@
 
 env
 
+githubCommit=false
+ghUsername="benson8"
+while getopts gr: flag
+do
+    case "${flag}" in
+        g) githubCommit=true;;
+        u) ghUsername=${OPTARG};;
+    esac
+done
+
 if [ -z "${TMDB_API_KEY}" ]
 then
    echo "TMDB_API_KEY environment variable is not set, exiting...."
-   exit 1
-fi
-
-if [ -z "${GH_TOKEN}" ]
-then
-   echo "GH_TOKEN is not set, exiting...."
    exit 1
 fi
 
@@ -36,9 +40,17 @@ rm -f xa*
 
 dir="available"
 
-# update the file
-curl -i -X PUT -H "Authorization: token ${GH_TOKEN}" -d "{\"path\": \"available-on-netflix.txt\", \
+# only commit to Github if the option has been set
+if [ "${githubCommit}" = true ]
+then
+   if [ -z "${GH_TOKEN}" ]
+   then
+     echo "GH_TOKEN is not set, exiting...."
+     exit 1
+   fi
+   curl -i -X PUT -H "Authorization: token ${GH_TOKEN}" -d "{\"path\": \"available-on-netflix.txt\", \
 \"message\": \"latest run on ${lastRun}\", \"content\": \"$(openssl base64 -A -in $dir/available-on-netflix.txt)\", \"branch\": \"main\",\
-\"sha\": $(curl -X GET https://api.github.com/repos/benson8/rewatchables/contents/available/available-on-netflix.txt | jq .sha)}" \
-https://api.github.com/repos/benson8/rewatchables/contents/available/available-on-netflix.txt
+\"sha\": $(curl -X GET https://api.github.com/repos/${ghUsername}/rewatchables/contents/available/available-on-netflix.txt | jq .sha)}" \
+https://api.github.com/repos/${ghUsername}/rewatchables/contents/available/available-on-netflix.txt
+fi
 
