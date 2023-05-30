@@ -11,4 +11,4 @@ RUN apt-get update && apt-get install curl jq -y
 RUN mkdir available
 RUN pip install -r requirements.txt
 
-CMD ./rewatchables-on-netflix.sh
+CMD ./rewatchables-on-netflix.sh -g
