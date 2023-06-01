@@ -27,9 +27,11 @@ To also have the scripts update to a repo that you have (say, if you fork this o
 Alternatively, you can run this via docker. Assuming you have Docker desktop installed, just do:
 
 ```docker image build -t rewatchables:0.0.1 .```
+
 ```docker run --env-file .env rewatchables:0.0.1```
 
 Where .env has the following contents:
 
 ```TMDB_API_KEY=YOUR_TMDB_API_KEY```
+
 ```GH_TOKEN=YOUR_GITHUB_TOKEN```
