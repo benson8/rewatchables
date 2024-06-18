@@ -1,4 +1,4 @@
-Rewatchables Films Available On Netflix in the U.S. (as of Wed Jun 12 23:05:00 UTC 2024)
+Rewatchables Films Available On Netflix in the U.S. (as of Tue Jun 18 10:26:46 UTC 2024)
 =======================================
 Pineapple Express
 Glengarry Glen Ross
@@ -9,4 +9,5 @@ The Conjuring
 The Breakfast Club
 The Holiday
 Beverly Hills Cop
+Fatal Attraction
 Moneyball
