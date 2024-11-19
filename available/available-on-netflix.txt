@@ -1,4 +1,4 @@
-Rewatchables Films Available On Netflix in the U.S. (as of Tue Nov 12 10:29:42 UTC 2024)
+Rewatchables Films Available On Netflix in the U.S. (as of Tue Nov 19 10:32:21 UTC 2024)
 =======================================
 Whiplash
 Glengarry Glen Ross
@@ -14,5 +14,7 @@ The Karate Kid
 Collateral
 The Notebook
 Field of Dreams
+Fast Five
+The Fast and the Furious
 Midnight Run
 Jaws
